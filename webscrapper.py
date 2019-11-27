@@ -4,7 +4,7 @@ import speech_recognition as sr
 import requests
 import bs4
 master = Tk()
-master.title("Scrap Bot")
+master.title("Web Scrapper")
 
 def source():
     res = requests.get(e1.get())
